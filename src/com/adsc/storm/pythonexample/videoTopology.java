@@ -8,11 +8,14 @@ import com.adsc.storm.pythonexample.bolts.FeatureExtractorBolt;
 import com.adsc.storm.pythonexample.bolts.ProcessingBolt;
 import com.adsc.storm.pythonexample.spouts.FramesSenderSpout;
 import com.adsc.storm.pythonexample.util.Constants;
+import org.opencv.core.Core;
 
 /**
  * Created by root on 15-11-30.
  */
 public class videoTopology implements Constants{
+
+    static{System.loadLibrary(Core.NATIVE_LIBRARY_NAME);}
 
     private static TopologyBuilder builder = new TopologyBuilder();
 
