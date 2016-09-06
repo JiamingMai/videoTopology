@@ -1,0 +1,14 @@
+Biking
+BoxingPunchingBag
+Drumming
+Fencing
+FloorGymnastics
+JumpRope
+JumpingJack
+Lunges
+Nunchucks
+PlayingCello
+PommelHorse
+Skiing
+SoccerJuggling
+TrampolineJumping
